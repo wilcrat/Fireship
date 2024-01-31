@@ -22,3 +22,6 @@ function makeBreakfast(main, side, drink) {
 }
 const breakfast = makeBreakfast("🍟", "🥙", "🥃");
 console.log(breakfast);
+
+//Arrow
+const makeWine = (qty) => "🍷".repeat(qty);
