@@ -9,4 +9,16 @@ const loaves = makeBread(7);
 console.log(loaves);
 
 //function expression
-const makeBeer
+const makeBeer = function (qty) {
+  return "🥫".repeat(qty);
+};
+const beers = makeBeer(3);
+
+console.log(beers);
+
+//positional
+function makeBreakfast(main, side, drink) {
+  return "Breakfast includes: " + main + ", " + side + " and " + drink;
+}
+const breakfast = makeBreakfast("🍟", "🥙", "🥃");
+console.log(breakfast);
