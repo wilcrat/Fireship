@@ -20,3 +20,10 @@ console.log(obje.Kitten);
 const organism = {
   dna: Math.random(),
 };
+
+const ob = Object.create(organism);
+
+console.log(ob);
+console.log(ob.dna);
+
+console.log(Object.getPrototypeOf(ob));
