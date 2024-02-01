@@ -27,3 +27,11 @@ console.log(ob);
 console.log(ob.dna);
 
 console.log(Object.getPrototypeOf(ob));
+
+//another one
+const spider = "🕷️";
+const legs = 8;
+
+const objec = { spider, legs };
+
+console.log(objec.legs);
